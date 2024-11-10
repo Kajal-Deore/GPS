@@ -19,7 +19,7 @@ if(navigator.geolocation){
     );
 }
 
-const map = L.map("map").setView([0,0], 16)   // with center coords and zoom level
+const map = L.map("map").setView([23.1630, 79.0193], 6);  // with center coords and zoom level
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "Kajal-Deore" // appears as watermark
